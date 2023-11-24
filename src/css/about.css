@@ -1,0 +1,41 @@
+.container {
+  width: 335px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.section-about {
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+  background-image: url('../img/background/aboutMob.png');
+}
+@media (min-resolution: 192dpi) {
+  .section-about {
+    background-image: url('../img/background/aboutMob@2x.png');
+  }
+}
+
+.title-about {
+  color: var(--white, #fcf9f9);
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.37;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.text-list-about {
+  display: flex;
+  gap: 20px;
+  color: rgba(252, 249, 249, 0.4);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  margin-bottom: 50px;
+}
