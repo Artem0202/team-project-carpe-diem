@@ -1,5 +1,6 @@
 /* ===== MOBILE STYLES ===== */
 .footer-section {
+  margin: 0 auto;
   padding: 40px 20px 292px 20px;
 
   border-top: 1px solid rgba(252, 249, 249, 0.1);
@@ -53,6 +54,8 @@
 
 @media screen and (min-width: 375px) {
   .footer-section {
+    width: 375px;
+
     background-size: 375px 212px;
     background-image: url(../img/background/footerMob.png);
     background-repeat: no-repeat;
@@ -76,6 +79,7 @@
 
 @media screen and (min-width: 768px) {
   .footer-section {
+    width: 768px;
     padding: 40px 32px;
 
     background-image: url(../img/background/footerTab.png);
@@ -116,6 +120,8 @@
 
 @media screen and (min-width: 1280px) {
   .footer-section {
+    width: 1280px;
+
     padding-top: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
@@ -154,6 +160,7 @@
 /* ===== DESKTOP 1440 STYLES ===== */
 @media screen and (min-width: 1440px) {
   .footer-section {
+    width: 1440px;
     background-image: url(../img/background/footer.png);
   }
 
