@@ -1,0 +1,129 @@
+/* ========== HEADER STYLES ========== */
+.flex-top {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation {
+  display: flex;
+  gap: 60px;
+}
+.wrapper {
+  display: flex;
+  gap: 20px;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background: rgba(252, 249, 249, 0.1);
+}
+.social-link:hover,
+.social-link:focus {
+  border-color: #ecd979;
+  background-color: #1c2225;
+}
+.social-link-icon {
+  padding: 8px;
+  fill: #fcf9f9;
+  fill-opacity: 0.8;
+}
+
+/* ========== MOBILE STYLES ========== */
+.nav-menu {
+  display: none;
+}
+.phone {
+  display: none;
+}
+.mobile-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+.mobile-btn-icon {
+  stroke: #ecd979;
+}
+/* ========== /MOBILE STYLES ========== */
+
+/* ========== TABLET STYLES ========== */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 704px;
+    padding: 0 32px;
+  }
+}
+/* ========== /TABLET STYLES ========== */
+
+/* ========== DESKTOP 1280 STYLES ========== */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1080px;
+    padding: 0 100px;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+  }
+  .nav-link {
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    text-transform: uppercase;
+  }
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #ecd979;
+  }
+  .contacts {
+    display: flex;
+    width: 193px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+  }
+  .phone {
+    display: flex;
+    padding: 14px 28px;
+    font-size: 14px;
+    line-height: 1.42;
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+  }
+  .phone:hover,
+  .phone:focus {
+    border-color: #ecd979;
+  }
+  .mobile-btn {
+    display: none;
+  }
+}
+/* ========== /DESKTOP 1280 STYLES ========== */
+
+/* ========== DESKTOP 1440 STYLES ========== */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1240px;
+  }
+  .flex-top {
+    margin-top: 18px;
+  }
+}
+/* ========== /DESKTOP 1440 STYLES ========== */
+
+/* ========== /HEADER STYLES ========== */
