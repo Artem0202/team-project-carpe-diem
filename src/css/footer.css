@@ -1,7 +1,8 @@
 /* ===== MOBILE STYLES ===== */
 .footer-section {
   margin: 0 auto;
-  padding: 40px 20px 292px 20px;
+  padding-top: 40px;
+  padding-bottom: 292px;
 
   border-top: 1px solid rgba(252, 249, 249, 0.1);
 
@@ -14,9 +15,6 @@
 @media screen and (min-resolution: 192dpi) {
   .footer-section {
     background-image: url(../img/background/footerMob@2x.png);
-    background-repeat: no-repeat;
-    background-position: 50% 100%;
-    background-size: contain;
   }
 }
 
@@ -58,20 +56,12 @@
 
     background-size: 375px 212px;
     background-image: url(../img/background/footerMob.png);
-    background-repeat: no-repeat;
-    background-position: 50% 100%;
   }
 
   @media screen and (min-resolution: 192dpi) {
     .footer-section {
       background-image: url(../img/background/footerMob@2x.png);
     }
-  }
-
-  .footer-container {
-    width: 335px;
-    margin-right: auto;
-    margin-left: auto;
   }
 }
 
