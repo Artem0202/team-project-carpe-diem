@@ -2,7 +2,7 @@
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
 }
 .testimonials {
   padding-bottom: 80px;
@@ -32,12 +32,12 @@
   color: var(--white, #fcf9f9);
 }
 .list-clients-review {
-    position: relative;
-    width: calc(100%-52) / 3;
-    padding: 0px 18px 18px 18px;
-    border-radius: 4px;
-    border: 1px solid rgba(252, 249, 249, 0.1);
-    justify-content: center;
+  position: relative;
+  width: 335px;
+  padding: 20px 18px 18px 18px;
+  border-radius: 4px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  justify-content: center;
 }
 .clients-review {
   display: flex;
@@ -65,21 +65,18 @@
   padding-top: 20px;
 }
 
-
 /* ============== TESTIMONIALS MOBILE STYLES ============== */
 @media screen and (min-width: 320px) {
   .container-testimonials {
     max-width: 375px;
   }
-.clients-review-text {
+  .clients-review-text {
     font-size: 14px;
     width: 291px;
-}
-.clients-review {
+  }
+  .clients-review {
     justify-content: space-around;
-}
-
-
+  }
 }
 /* /============== TESTIMONIALS MOBILE STYLES ============== */
 
@@ -109,7 +106,6 @@
     line-height: 1.4;
     letter-spacing: -0.03em;
   }
-  
 }
 /* /============== TESTIMONIALS TABLET STYLES ============== */
 
@@ -127,11 +123,11 @@
     width: calc((100% - 52px) / 3);
     display: flex;
   }
- .name-block-testimonials {
-     font-size: 44px;
-     line-height: 1.4;
-     letter-spacing: -0.03em;
- }
+  .name-block-testimonials {
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: -0.03em;
+  }
 }
 /* /============== TESTIMONIALS DESKTOP 1280 STYLES ============== */
 
@@ -139,13 +135,12 @@
 @media screen and (min-width: 1440px) {
   .container-testimonials {
     max-width: 1440px;
-}
- .name-block-testimonials {
-     font-size: 44px;
-     line-height: 1.4;
-     letter-spacing: -0.03em;
- }
-
+  }
+  .name-block-testimonials {
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: -0.03em;
+  }
 }
 
 /* /============== TESTIMONIALS DESKTOP 1440 STYLES ============== */
