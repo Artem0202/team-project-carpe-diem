@@ -127,12 +127,11 @@
 .order-form-button-svg {
   width: 26px;
   height: 10px;
-  transform: rotate(-30deg);
   fill: #ecd979;
 }
 
 @media (min-width: 768px) {
-  .container {
+  .order-section .container {
     max-width: 768px;
   }
 
@@ -192,7 +191,7 @@
 }
 
 @media (min-width: 1280px) {
-  .container {
+  .order-section .container {
     max-width: 1280px;
   }
 
@@ -242,7 +241,7 @@
 }
 
 @media (min-width: 1440px) {
-  .container {
+  .order-section .container {
     max-width: 1440px;
   }
 
