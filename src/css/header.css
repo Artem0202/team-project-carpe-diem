@@ -52,13 +52,15 @@
   padding: 0;
 }
 .mobile-btn-icon {
+  width: 44px;
+  height: 30px;
   stroke: #ecd979;
 }
 /* ========== /MOBILE STYLES ========== */
 
 /* ========== TABLET STYLES ========== */
 @media screen and (min-width: 768px) {
-  .page-header {
+  .flex-top {
     max-width: 768px;
   }
 }
@@ -66,7 +68,7 @@
 
 /* ========== DESKTOP 1280 STYLES ========== */
 @media screen and (min-width: 1280px) {
-  .page-header {
+  .flex-top {
     max-width: 1280px;
   }
   .nav-menu {
@@ -112,10 +114,8 @@
 
 /* ========== DESKTOP 1440 STYLES ========== */
 @media screen and (min-width: 1440px) {
-  .page-header {
-    max-width: 1440px;
-  }
   .flex-top {
+    max-width: 1440px;
     margin-top: 18px;
   }
 }
