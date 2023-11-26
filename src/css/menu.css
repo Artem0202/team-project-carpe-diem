@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
   background-position: bottom;
   max-width: 274px;
-  transform: translateX(100%);
+  /* transform: translateX(100%); */
   transition: transform 250ms linear;
 }
 .mobile-menu-container {
