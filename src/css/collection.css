@@ -1,12 +1,12 @@
 /* ===================COLLECTION MOBILE STYLES================== */
-.container {
+.our-collection .container {
   padding: 0 20px;
 }
 
 .our-collection {
   background-image: url(../img/background/collectMob.png);
   background-repeat: no-repeat;
-  background-position: 0 9%;
+  background-position: 0 10%;
   padding-top: 25px;
   padding-bottom: 50px;
 }
@@ -57,7 +57,7 @@
   screen and (min-resolution: 2dppx) and (min-width: 320px) {
   .our-collection {
     background-image: url(../img/background/collectMob@2x.png);
-    background-position: 0 9%;
+
     background-size: 72px 177px;
   }
 }
@@ -65,14 +65,14 @@
 /* ===================COLLECTION TABLET STYLES================== */
 
 @media screen and (min-width: 768px) {
-  .container {
+  .our-collection .container {
     padding: 0 32px;
     max-width: 768px;
   }
 
   .our-collection {
     background-image: url(../img/background/collectTab.png);
-    background-position: 0 12%;
+    background-position: 0 16%;
   }
 
   .collection-list {
@@ -113,7 +113,7 @@
 /* ===================/COLLECTION TABLET STYLES================== */
 /* ===================COLLECTION DESKTOP STYLES================== */
 @media screen and (min-width: 1280px) {
-  .container {
+  .our-collection .container {
     padding: 0 100px;
     max-width: 1280px;
   }
@@ -125,7 +125,7 @@
 
   .our-collection {
     background-image: url(../img/background/collect.png);
-    background-position: 0 19%;
+    background-position: 0 26%;
   }
 
   .collection-list-item {
@@ -144,12 +144,12 @@
 /* ===================/COLLECTION DESKTOP STYLES================== */
 /* ===================COLLECTION DESKTOP 1440px STYLES=============== */
 @media screen and (min-width: 1440px) {
-  .container {
+  .our-collection .container {
     max-width: 1440px;
   }
 
   .our-collection {
-    background-position: 0 24%;
+    background-position: 0 26%;
   }
 }
 /* ===================/COLLECTION DESKTOP 1440px STYLES============= */
