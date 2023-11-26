@@ -34,6 +34,7 @@
   line-height: normal;
   letter-spacing: -0.04em;
   padding-bottom: 20px;
+  width: 335px;
 }
 .about-image {
   margin-top: 30px;
@@ -70,11 +71,10 @@
 
   .text-about {
     font-size: 16px;
+    width: 704px;
   }
   .about-image {
     margin-top: 20px;
-    /* width: 704px;
-    height: 545px; */
   }
 }
 /*=======Styles for tab=========*/
@@ -106,10 +106,6 @@
   .title-about {
     padding-top: 45.5px;
   }
-  /* .about-image {
-    width: 594px;
-    height: 545px;
-  } */
 }
 /*=======Styles for desktop Min=========*/
 
@@ -135,9 +131,5 @@
   .title-about {
     padding-top: 78px;
   }
-  /* .about-image {
-    width: 594px;
-    height: 545px;
-  } */
 }
 /*=======Styles for desktop Max=========*/
