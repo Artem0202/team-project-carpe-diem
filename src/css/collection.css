@@ -1,9 +1,12 @@
 /* ===================COLLECTION MOBILE STYLES================== */
+.container {
+  padding: 0 20px;
+}
 
 .our-collection {
   background-image: url(../img/background/collectMob.png);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: 0 9%;
   padding-top: 4px;
   padding-bottom: 50px;
 }
@@ -40,6 +43,7 @@
   margin-bottom: 8px;
   color: #fcf9f9;
 }
+
 .price-collection-item {
   font-size: 14px;
   font-weight: 400;
@@ -47,11 +51,14 @@
   letter-spacing: 0.05em;
   color: rgba(252, 249, 249, 0.4);
 }
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-  screen and (min-resolution: 192dpi) and (max-width: 767px),
-  screen and (min-resolution: 2dppx) and (max-width: 767px) {
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+  screen and (min-resolution: 192dpi) and (min-width: 320px),
+  screen and (min-resolution: 2dppx) and (min-width: 320px) {
   .our-collection {
     background-image: url(../img/background/collectMob@2x.png);
+    background-position: 0 9%;
+    background-size: 72px 177px;
   }
 }
 /* ===================/COLLECTION MOBILE STYLES================== */
@@ -59,61 +66,90 @@
 
 @media screen and (min-width: 768px) {
   .container {
+    padding: 0 32px;
     max-width: 768px;
   }
+
   .our-collection {
     background-image: url(../img/background/collectTab.png);
+    background-position: 0 12%;
   }
+
   .collection-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    row-gap: 20px;
   }
+
+  .collection-list {
+    gap: 20px;
+  }
+
   .collection-list-item {
     width: calc((100% - 20px) / 2);
   }
+
   .collection-list-item:not(:last-child) {
     margin-bottom: 0;
   }
+
   .description-collection-item {
     font-size: 18px;
   }
+
   .price-collection-item {
     font-size: 18px;
   }
 }
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 1279px),
-  screen and (min-resolution: 192dpi) and (max-width: 1279px),
-  screen and (min-resolution: 2dppx) and (max-width: 1279px) {
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .our-collection {
     background-image: url(../img/background/collectTab@2x.png);
+    background-size: 114px 300px;
   }
 }
 /* ===================/COLLECTION TABLET STYLES================== */
 /* ===================COLLECTION DESKTOP STYLES================== */
 @media screen and (min-width: 1280px) {
   .container {
+    padding: 0 100px;
     max-width: 1280px;
   }
+
+  .collection-list {
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+
   .our-collection {
     background-image: url(../img/background/collect.png);
+    background-position: 0 19%;
   }
+
   .collection-list-item {
-    width: calc((100% - 20px) / 3);
-    row-gap: 20px;
+    width: calc((100% - 40px) / 3);
   }
 }
+
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
   screen and (min-resolution: 192dpi) and (min-width: 1280px),
   screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   .our-collection {
     background-image: url(../img/background/collect@2x.png);
+    background-size: 169px 300px;
   }
 }
 /* ===================/COLLECTION DESKTOP STYLES================== */
+/* ===================COLLECTION DESKTOP 1440px STYLES=============== */
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
   }
+
+  .our-collection {
+    background-position: 0 24%;
+  }
 }
+/* ===================/COLLECTION DESKTOP 1440px STYLES============= */
