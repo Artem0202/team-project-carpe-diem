@@ -84,7 +84,8 @@
       background-image: url(../img/background/footerTab@2x.png);
     }
   }
-  .footer-container {
+  .container {
+    margin-left: 0;
     width: 704px;
   }
 
@@ -128,7 +129,7 @@
     }
   }
 
-  .footer-container {
+  .container {
     width: 1080px;
 
     margin: 0;
