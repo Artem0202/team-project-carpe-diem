@@ -16,28 +16,28 @@
 }
 
 .name-clients {
-  color: var(--white, #fcf9f9);
   text-align: center;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.5;
   padding-top: 14px;
+  color: var(--white, #fcf9f9);
 }
 .name-block-testimonials {
   padding-bottom: 40px;
   font-weight: 500;
   letter-spacing: -0.03em;
-  color: var(--white, #fcf9f9);
   font-size: 32px;
-  line-height: 1.37;
+  line-height: 1.3;
+  color: var(--white, #fcf9f9);
 }
 .list-clients-review {
-  display: flex;
-  position: relative;
-  width: 335px;
-  padding: 0px 18px 18px 18px;
-  border-radius: 4px;
-  border: 1px solid rgba(252, 249, 249, 0.1);
+    position: relative;
+    width: calc(100%-52) / 3;
+    padding: 0px 18px 18px 18px;
+    border-radius: 4px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    justify-content: center;
 }
 .clients-review {
   display: flex;
@@ -52,11 +52,11 @@
   display: none;
 }
 .clients-review-text {
-  color: rgba(252, 249, 249, 0.4);
   text-align: center;
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
+  color: rgba(252, 249, 249, 0.4);
 }
 .review-container {
   display: flex;
@@ -64,16 +64,22 @@
   gap: 8px;
   padding-top: 20px;
 }
-.clients-review-text {
-  font-size: 14px;
-  width: 291px;
-}
+
 
 /* ============== TESTIMONIALS MOBILE STYLES ============== */
 @media screen and (min-width: 320px) {
   .container-testimonials {
     max-width: 375px;
   }
+.clients-review-text {
+    font-size: 14px;
+    width: 291px;
+}
+.clients-review {
+    justify-content: space-around;
+}
+
+
 }
 /* /============== TESTIMONIALS MOBILE STYLES ============== */
 
@@ -97,6 +103,13 @@
   .feedback-n {
     display: none;
   }
+
+  .name-block-testimonials {
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: -0.03em;
+  }
+  
 }
 /* /============== TESTIMONIALS TABLET STYLES ============== */
 
@@ -114,6 +127,11 @@
     width: calc((100% - 52px) / 3);
     display: flex;
   }
+ .name-block-testimonials {
+     font-size: 44px;
+     line-height: 1.4;
+     letter-spacing: -0.03em;
+ }
 }
 /* /============== TESTIMONIALS DESKTOP 1280 STYLES ============== */
 
@@ -121,7 +139,13 @@
 @media screen and (min-width: 1440px) {
   .container-testimonials {
     max-width: 1440px;
-  }
+}
+ .name-block-testimonials {
+     font-size: 44px;
+     line-height: 1.4;
+     letter-spacing: -0.03em;
+ }
+
 }
 
 /* /============== TESTIMONIALS DESKTOP 1440 STYLES ============== */
