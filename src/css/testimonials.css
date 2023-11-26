@@ -24,7 +24,7 @@
   color: var(--white, #fcf9f9);
 }
 .name-block-testimonials {
-  padding-bottom: 64px;
+  margin-bottom: 64px;
   font-weight: 500;
   letter-spacing: -0.03em;
   font-size: 32px;
