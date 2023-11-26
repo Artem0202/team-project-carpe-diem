@@ -11,6 +11,8 @@
 .container-testimonials {
   box-sizing: border-box;
   background: #1c2225;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .name-clients {
@@ -89,10 +91,11 @@
 
   .list-clients-review {
     width: calc((100% - 32px) / 2);
+    display: flex;
   }
 
   .feedback-n {
-    display: flex;
+    display: none;
   }
 }
 /* /============== TESTIMONIALS TABLET STYLES ============== */
@@ -109,8 +112,6 @@
   }
   .list-clients-review {
     width: calc((100% - 52px) / 3);
-  }
-  .feedback-s {
     display: flex;
   }
 }
