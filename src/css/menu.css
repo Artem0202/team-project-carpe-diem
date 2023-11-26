@@ -19,11 +19,13 @@
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .mobile-menu {
     background-image: url(../img/background/menuMob@2x.png);
+    background-size: 274px;
   }
 }
 @media screen and (min-width: 768px) {
   .mobile-menu {
     background-image: url(../img/background/menuTab.png);
+    max-width: 380px;
   }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
@@ -31,6 +33,7 @@
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
   .mobile-menu {
     background-image: url(../img/background/menuTab@2x.png);
+    background-size: 380px;
   }
 }
 .mobile-menu.is-open {
@@ -56,6 +59,8 @@
   line-height: 0;
 }
 .close-btn-icon {
+  width: 36px;
+  height: 36px;
   stroke: #1c2225;
 }
 .mobile-menu-contacts {
@@ -84,6 +89,10 @@
     padding: 14px 28px;
     font-size: 14px;
     line-height: 1.42;
+  }
+  .close-btn-icon {
+    width: 44px;
+    height: 44px;
   }
 }
 .mobile-menu-nav {
