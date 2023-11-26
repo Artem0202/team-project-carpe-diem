@@ -28,7 +28,7 @@
 }
 
 .main-title {
-    width: 335px;    
+    max-width: 335px;    
     font-size: 44px;    
     font-weight: 400;
     line-height: 1.23;    
@@ -48,7 +48,7 @@
 
 .order-button {
     display: flex;
-    width: auto;
+    max-width: auto;
     height: 49px;
     padding: 14px 36px;
     justify-content: center;
@@ -72,14 +72,25 @@
 }
 
 @media screen and (min-width: 768px) {
-    .conteiner {
-        width: 768px;
+    .container {
+        max-width: 768px;
     }
 }
 
 .star {
-    display: flex;
-    align-content: center;
+    border: box;
+    max-width: 115px;
+    max-height: 111px;
+    border: none;
+    padding: 0 0;
+}
+
+.star-button {
+    border: none;
+    background-color: transparent;
+    line-height: 0;
+    padding: 0;
+    justify-content: center;
 }
 
 .star-list {
@@ -105,7 +116,7 @@
 }*/
 
 .small-image {
-    /* position: absolute;
+    /position: absolute;
     display: block;
-    width: 100%;*/
+    width: 100%;
 }
