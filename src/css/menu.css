@@ -14,6 +14,15 @@
   transform: translateX(100%);
   transition: transform 250ms linear;
 }
+.mobile-menu-container {
+  height: 100%;
+}
+.mobile-menu-list {
+  display: flex;
+  height: 50%;
+  justify-content: flex-end;
+  align-items: center;
+}
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
