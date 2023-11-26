@@ -91,7 +91,9 @@
     flex-direction: row;
     gap: 32px;
   }
-
+  .testimonials {
+    padding-bottom: 100px;
+  }
   .list-clients-review {
     width: calc((100% - 32px) / 2);
     display: flex;
@@ -115,7 +117,9 @@
     max-width: 1280px;
     padding-bottom: 150px;
   }
-
+  .testimonials {
+    padding-bottom: 150px;
+  }
   .clients-review {
     gap: 26px;
   }
