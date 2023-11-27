@@ -4,17 +4,17 @@
   padding-top: 40px;
   padding-bottom: 292px;
 
-  background-image: url(../img/background/ornamentYellowFull.png);
+  background-image: url(../img/background/footerMob.png);
   background-repeat: no-repeat;
-  background-size: 452px 401px;
-  background-position: 50% 177%;
+  background-size: 375px 212px;
+  background-position: center bottom;
 
   border-top: 1px solid rgba(252, 249, 249, 0.1);
 }
 
 @media screen and (min-resolution: 192dpi) {
   .footer-section {
-    background-image: url(../img/background/ornamentYellowFull@2x.png);
+    background-image: url(../img/background/footerMob@2x.png);
   }
 }
 
@@ -55,24 +55,22 @@
 }
 
 @media screen and (min-width: 375px) {
-  .footer-section {
-    width: 375px;
-  }
 }
 
 /* ===== TABLET STYLES ===== */
 
 @media screen and (min-width: 768px) {
   .footer-section {
-    width: 768px;
     padding: 40px 32px;
 
-    background-size: 451px 445px;
-    background-position: 188% 50%;
+    background-image: url(../img/background/footerTab.png);
+    background-size: 175px 370px;
+    background-position: right center;
   }
 
   @media screen and (min-resolution: 192dpi) {
     .footer-section {
+      background-image: url(../img/background/footerTab@2x.png);
     }
   }
   .container {
@@ -105,21 +103,18 @@
 
 @media screen and (min-width: 1280px) {
   .footer-section {
-    width: 1280px;
-
     padding-top: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
     padding-left: 100px;
 
-    background-image: url(../img/background/ornamentYellowFull.png);
-    background-size: 595px 528px;
-    background-position: 138% 39%;
+    background-image: url(../img/background/footerMin.png);
+    background-size: 337px 363px;
   }
 
   @media screen and (min-resolution: 192dpi) {
     .footer-section {
-      background-image: url(../img/background/ornamentYellowFull@2x.png);
+      background-image: url(../img/background/footerMin@2x.png);
     }
   }
 
@@ -147,10 +142,8 @@
 /* ===== DESKTOP 1440 STYLES ===== */
 @media screen and (min-width: 1440px) {
   .footer-section {
-    width: 1440px;
-    background-image: url(../img/background/ornamentYellowFull.png);
-    background-size: contain;
-    background-position: 945px -16px;
+    background-image: url(../img/background/footer.png);
+    background-size: 496px 363px;
   }
 
   @media screen and (min-resolution: 192dpi) {
