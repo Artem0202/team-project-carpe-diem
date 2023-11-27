@@ -61,7 +61,8 @@
 
 @media screen and (min-width: 768px) {
   .footer-section {
-    padding: 40px 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
     background-image: url(../img/background/footerTab.png);
     background-size: 175px 370px;
@@ -73,10 +74,9 @@
       background-image: url(../img/background/footerTab@2x.png);
     }
   }
-  .container {
-    width: 521px;
-    margin-left: 0;
+  .footer-section .container {
     width: 704px;
+    margin-left: 32px;
   }
 
   .footer-nav-list {
@@ -118,9 +118,9 @@
     }
   }
 
-  .container {
+  .footer-section .container {
     width: 1080px;
-
+    padding-left: 100px;
     margin: 0;
   }
 
@@ -152,7 +152,7 @@
     }
   }
 
-  .container {
+  .footer-section .container {
     width: 754px;
   }
 }
