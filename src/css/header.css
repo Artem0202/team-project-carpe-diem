@@ -67,6 +67,10 @@
   .flex-top {
     max-width: 768px;
   }
+  .mobile-btn-icon {
+    width: 44px;
+    height: 30px;
+  }
 }
 /* ========== /TABLET STYLES ========== */
 
