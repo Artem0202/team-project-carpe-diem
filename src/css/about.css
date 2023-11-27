@@ -1,8 +1,7 @@
 /*=======Styles for mobile=========*/
 
 .section-about {
-  padding-top: 80px;
-  padding-bottom: 62px;
+  padding-top: 40px;
   background-image: url(../img/background/aboutMob.png);
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -49,8 +48,7 @@
   }
 
   .section-about {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 50px;
     background-image: url(../img/background/aboutTab.png);
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -88,8 +86,7 @@
     padding: 0 100px;
   }
   .section-about {
-    padding-top: 150px;
-    padding-bottom: 80px;
+    padding-top: 75px;
     background-image: url(../img/background/aboutMin.png);
     background-position: right bottom;
     background-repeat: no-repeat;

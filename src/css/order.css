@@ -1,6 +1,6 @@
 .order-section-container {
   padding-top: 710px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   margin: 0 auto;
   position: relative;
 }
@@ -137,13 +137,13 @@
     padding-left: 32px;
     padding-right: 32px;
     padding-top: 876px;
-    padding-bottom: 179px;
+    padding-bottom: 129px;
   }
 
   .order-section {
     background-image: url(../img/background/orderTab.png);
     background-repeat: no-repeat;
-    background-position: bottom 100px left;
+    background-position: bottom 50px left;
   }
 
   /* .order-section {
@@ -203,12 +203,12 @@
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 926px;
-    padding-bottom: 150px;
+    padding-bottom: 75px;
   }
 
   .order-section {
     background-image: url(../img/background/orderMin.png);
-    background-position: bottom 150px left;
+    background-position: bottom 75px left;
   }
 
   .order-section-container::before {
@@ -250,9 +250,8 @@
   }
 
   .order-section {
-    padding-bottom: 150px;
     background-image: url(../img/background/order.png);
-    background-position: bottom 150px left;
+    background-position: bottom 75px left;
   }
 
   .order-section-container::before {

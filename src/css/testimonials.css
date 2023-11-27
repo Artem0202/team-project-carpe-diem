@@ -68,6 +68,7 @@
 /* ============== TESTIMONIALS MOBILE STYLES ============== */
 @media screen and (min-width: 320px) {
   .container-testimonials {
+    padding-top: 40px;
     max-width: 375px;
   }
   .clients-review-text {
@@ -84,7 +85,7 @@
 @media screen and (min-width: 768px) {
   .container-testimonials {
     max-width: 768px;
-    padding-bottom: 100px;
+    padding: 50px 32px 100px 32px;
   }
 
   .clients-review {
@@ -116,6 +117,8 @@
   .container-testimonials {
     max-width: 1280px;
     padding-bottom: 150px;
+    padding-top: 75px;
+    padding: 75px 100px 150px 100px;
   }
   .testimonials {
     padding-bottom: 150px;

@@ -1,6 +1,6 @@
 /* ===================COLLECTION MOBILE STYLES================== */
 .our-collection .container {
-  padding: 0 20px;
+  padding: 18px 20px 80px 20px;
 }
 
 .our-collection {
@@ -65,7 +65,7 @@
 
 @media screen and (min-width: 768px) {
   .our-collection .container {
-    padding: 0 32px;
+    padding: 50px 32px 100px 32px;
     max-width: 768px;
   }
 
@@ -113,7 +113,7 @@
 /* ===================COLLECTION DESKTOP STYLES================== */
 @media screen and (min-width: 1280px) {
   .our-collection .container {
-    padding: 0 100px;
+    padding: 70px 100px 150px 100px;
     max-width: 1280px;
   }
 
