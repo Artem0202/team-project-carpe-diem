@@ -7,7 +7,7 @@
 
 .order-section-container::before {
   content: '';
-  width: 375px;
+  width: 100%;
   height: 550px;
   display: block;
   background-image: url(../img/girlGreenMob.jpg);
@@ -40,7 +40,7 @@
 }
 
 .order-input {
-  min-width: 320px;
+  width: 100%;
   padding: 14px 16px;
   background-color: #1c2225;
   border-radius: 15px;
@@ -75,7 +75,7 @@
 }
 
 .order-textarea {
-  min-width: 320px;
+  width: 100%;
   height: 196px;
   padding: 14px;
   background-color: #1c2225;
@@ -169,7 +169,9 @@
     line-height: 1.31;
     width: 542px;
   }
-
+  .order-form {
+    width: 508px;
+  }
   .order-form {
     display: flex;
     flex-direction: column;

@@ -2,10 +2,11 @@
 
 .section-about {
   padding-top: 40px;
+  padding-bottom: 62px;
   background-image: url(../img/background/aboutMob.png);
   background-position: right bottom;
   background-repeat: no-repeat;
-  background-size: 250px 408px;
+  background-size: bottom 50px right;
 }
 @media screen and (min-resolution: 192dpi) {
   .section-about {
@@ -33,7 +34,7 @@
   line-height: normal;
   letter-spacing: -0.04em;
   padding-bottom: 20px;
-  width: 335px;
+  max-width: 335px;
 }
 .about-image {
   margin-top: 30px;
@@ -49,6 +50,7 @@
 
   .section-about {
     padding-top: 50px;
+    padding-bottom: 50px;
     background-image: url(../img/background/aboutTab.png);
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -69,7 +71,7 @@
 
   .text-about {
     font-size: 16px;
-    width: 704px;
+    max-width: 704px;
   }
   .about-image {
     margin-top: 20px;
@@ -87,6 +89,7 @@
   }
   .section-about {
     padding-top: 75px;
+    padding-bottom: 80px;
     background-image: url(../img/background/aboutMin.png);
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -98,10 +101,10 @@
     }
   }
   .text-about {
-    width: 436px;
+    max-width: 436px;
   }
   .title-about {
-    padding-top: 45.5px;
+    padding-top: 46px;
   }
 }
 /*=======Styles for desktop Min=========*/
@@ -123,7 +126,7 @@
     }
   }
   .text-about {
-    width: 481px;
+    max-width: 481px;
   }
   .title-about {
     padding-top: 78px;
