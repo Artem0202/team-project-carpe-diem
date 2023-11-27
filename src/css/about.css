@@ -1,0 +1,135 @@
+/*=======Styles for mobile=========*/
+
+.section-about {
+  padding-top: 40px;
+  padding-bottom: 62px;
+  background-image: url(../img/background/aboutMob.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: bottom 50px right;
+}
+@media screen and (min-resolution: 192dpi) {
+  .section-about {
+    background-image: url(../img/background/aboutMob@2x.png);
+  }
+}
+.title-about {
+  color: var(--white, #fcf9f9);
+  font-family: 'Manrope';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.37;
+  letter-spacing: -0.03em;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.text-about {
+  color: rgba(252, 249, 249, 0.4);
+  font-family: 'Manrope';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  padding-bottom: 20px;
+  max-width: 335px;
+}
+.about-image {
+  margin-top: 30px;
+}
+/*=======Styles for mobile=========*/
+
+/*=======Styles for tab=========*/
+@media screen and (min-width: 768px) {
+  .section-about .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .section-about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/background/aboutTab.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 357px 484px;
+  }
+  @media screen and (min-resolution: 192dpi) {
+    .section-about {
+      background-image: url(../img/background/aboutTab@2x.png);
+    }
+  }
+
+  .title-about {
+    font-size: 44px;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+    padding-bottom: 50px;
+  }
+
+  .text-about {
+    font-size: 16px;
+    max-width: 704px;
+  }
+  .about-image {
+    margin-top: 20px;
+  }
+}
+/*=======Styles for tab=========*/
+
+/*=======Styles for desktop Min=========*/
+@media screen and (min-width: 1280px) {
+  .section-about .container {
+    max-width: 1280px;
+    display: flex;
+    gap: 50px;
+    padding: 0 100px;
+  }
+  .section-about {
+    padding-top: 75px;
+    padding-bottom: 80px;
+    background-image: url(../img/background/aboutMin.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 385px 484px;
+  }
+  @media screen and (min-resolution: 192dpi) {
+    .section-about {
+      background-image: url(../img/background/aboutMin@2x.png);
+    }
+  }
+  .text-about {
+    max-width: 436px;
+  }
+  .title-about {
+    padding-top: 46px;
+  }
+}
+/*=======Styles for desktop Min=========*/
+
+/*=======Styles for desktop Max=========*/
+@media screen and (min-width: 1440px) {
+  .section-about .container {
+    max-width: 1440px;
+  }
+  .section-about {
+    background-image: url(../img/background/about.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 545px 484px;
+  }
+  @media screen and (min-resolution: 192dpi) {
+    .section-about {
+      background-image: url(../img/background/about@2x.png);
+    }
+  }
+  .text-about {
+    max-width: 481px;
+  }
+  .title-about {
+    padding-top: 78px;
+  }
+}
+/*=======Styles for desktop Max=========*/

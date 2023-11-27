@@ -1,0 +1,152 @@
+/* ===================COLLECTION MOBILE STYLES================== */
+.our-collection .container {
+  padding: 18px 20px 80px 20px;
+}
+
+.our-collection {
+  background-image: url(../img/background/collectMob.png);
+  background-repeat: no-repeat;
+  background-position: 0 10%;
+}
+
+.collection-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.37;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+}
+
+.collect-image {
+  border-radius: 4px;
+  margin-bottom: 18px;
+}
+
+.collection-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.description-collection-item {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: #fcf9f9;
+}
+
+.price-collection-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  color: rgba(252, 249, 249, 0.4);
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+  screen and (min-resolution: 192dpi) and (min-width: 320px),
+  screen and (min-resolution: 2dppx) and (min-width: 320px) {
+  .our-collection {
+    background-image: url(../img/background/collectMob@2x.png);
+    background-size: 72px 177px;
+  }
+}
+/* ===================/COLLECTION MOBILE STYLES================== */
+/* ===================COLLECTION TABLET STYLES================== */
+
+@media screen and (min-width: 768px) {
+  .our-collection .container {
+    padding: 50px 32px 100px 32px;
+    max-width: 768px;
+  }
+
+  .our-collection {
+    background-image: url(../img/background/collectTab.png);
+    background-position: 0 14%;
+  }
+
+  .collection-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .collection-list {
+    gap: 20px;
+  }
+
+  .collection-list-item {
+    width: calc((100% - 20px) / 2);
+  }
+
+  .collection-list-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .description-collection-item {
+    font-size: 18px;
+  }
+
+  .price-collection-item {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .our-collection {
+    background-image: url(../img/background/collectTab@2x.png);
+    background-size: 114px 300px;
+  }
+}
+/* ===================/COLLECTION TABLET STYLES================== */
+/* ===================COLLECTION DESKTOP STYLES================== */
+@media screen and (min-width: 1280px) {
+  .our-collection .container {
+    padding: 70px 100px 150px 100px;
+    max-width: 1280px;
+  }
+
+  .collection-list {
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+
+  .our-collection {
+    background-image: url(../img/background/collect.png);
+    background-position: 0 22%;
+  }
+
+  .collection-list-item {
+    width: calc((100% - 40px) / 3);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
+  screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px) {
+  .our-collection {
+    background-image: url(../img/background/collect@2x.png);
+    background-size: 169px 300px;
+  }
+}
+/* ===================/COLLECTION DESKTOP STYLES================== */
+/* ===================COLLECTION DESKTOP 1440px STYLES=============== */
+@media screen and (min-width: 1440px) {
+  .our-collection .container {
+    max-width: 1440px;
+  }
+
+  .our-collection {
+    background-position: 0 26%;
+  }
+}
+/* ===================/COLLECTION DESKTOP 1440px STYLES============= */

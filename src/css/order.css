@@ -1,0 +1,317 @@
+.order-section-container {
+  padding-top: 710px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.order-section-container::before {
+  content: '';
+  width: 100%;
+  height: 550px;
+  display: block;
+  background-image: url(../img/girlGreenMob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.order-img {
+  display: none;
+}
+
+.order-img-desktop {
+  display: none;
+}
+
+.order-title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.37;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+
+.order-title-span {
+  color: #ecd979;
+}
+
+.order-input {
+  width: 100%;
+  padding: 14px 16px;
+  background-color: #1c2225;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  margin-bottom: 20px;
+  color: rgba(252, 249, 249, 0.5);
+}
+
+.order-input:hover,
+.order-input:focus,
+.order-input:active {
+  color: #fcf9f9;
+}
+
+.order-input::placeholder {
+  color: rgba(252, 249, 249, 0.5);
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: -0.02em;
+}
+
+.order-input:hover,
+.order-input:focus,
+.order-input:active {
+  border-color: #fcf9f9;
+}
+
+.order-input:hover::placeholder,
+.order-input:focus::placeholder,
+.order-input:active::placeholder {
+  color: #fcf9f9;
+}
+
+.order-textarea {
+  width: 100%;
+  height: 196px;
+  padding: 14px;
+  background-color: #1c2225;
+  color: rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  margin-bottom: 40px;
+  resize: none;
+  color: rgba(252, 249, 249, 0.5);
+}
+
+.order-textarea::placeholder {
+  color: rgba(252, 249, 249, 0.5);
+}
+
+.order-textarea:hover,
+.order-textarea:focus,
+.order-textarea:active {
+  border-color: #fcf9f9;
+}
+
+.order-textarea:hover::placeholder,
+.order-textarea:focus::placeholder,
+.order-textarea:active::placeholder {
+  color: #fcf9f9;
+}
+
+.order-form-button {
+  color: #fcf9f9;
+  background-color: #1c2225;
+  height: 49px;
+  padding: 14px 36px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  margin: 0 auto;
+}
+
+.order-form-button:hover,
+.order-form-button:focus,
+.order-form-button:active {
+  border-color: #ecd979;
+}
+
+.order-form-button-svg {
+  fill: #ecd979;
+}
+
+@media (min-width: 768px) {
+  .order-section .container {
+    max-width: 768px;
+  }
+
+  .order-section-container {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 876px;
+    padding-bottom: 129px;
+  }
+
+  .order-section {
+    background-image: url(../img/background/orderTab.png);
+    background-repeat: no-repeat;
+    background-position: bottom 50px left;
+  }
+
+  /* .order-section {
+    padding-bottom: 179px;
+    background-image: url(../img/background/elements.png);
+    background-repeat: no-repeat;
+     background-position: bottom 100px right 413px;
+    background-size: 545px 484px;
+  } */
+
+  /* .order-section-container {
+    padding-top: 876px;
+  } */
+
+  .order-section-container::before {
+    width: 768px;
+    height: 776px;
+    background-image: url(../img/girlGreenTab.jpg);
+  }
+
+  .order-title {
+    font-size: 44px;
+    line-height: 1.31;
+    width: 542px;
+  }
+  .order-form {
+    width: 508px;
+  }
+  .order-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .order-input::placeholder {
+    font-size: 16px;
+  }
+
+  .order-form-button {
+    margin-left: 0;
+    font-size: 16px;
+    padding: 14px 39px;
+  }
+
+  .order-img {
+    display: block;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .order-section .container {
+    max-width: 1280px;
+  }
+
+  .order-section-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 926px;
+    padding-bottom: 75px;
+  }
+
+  .order-section {
+    background-image: url(../img/background/orderMin.png);
+    background-position: bottom 75px left;
+  }
+
+  .order-section-container::before {
+    width: 1282px;
+    background-image: url(../img/girlGreenMin.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .order-container-image {
+    min-width: 32vw;
+  }
+
+  .order-img {
+    display: none;
+  }
+
+  .order-img-desktop {
+    display: block;
+  }
+
+  .order-form {
+    margin-bottom: 0;
+  }
+
+  .order-input {
+    width: 508px;
+  }
+
+  .order-textarea {
+    width: 508px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .order-section .container {
+    max-width: 1440px;
+  }
+
+  .order-section {
+    background-image: url(../img/background/order.png);
+    background-position: bottom 75px left;
+  }
+
+  .order-section-container::before {
+    width: 1440px;
+    background-image: url(../img/girlGreen.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .order-section-container {
+    justify-content: start;
+  }
+
+  /* .order-container-title-and-form {
+  } */
+
+  /* .order-container-image {
+    width: 524px;
+    margin-right: auto;
+  } */
+}
+
+@media (min-resolution: 192dpi) {
+  .order-section-container::before {
+    background-image: url(../img/girlGreenMob@2x.jpg);
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 768px) {
+  .order-section-container::before {
+    background-image: url(../img/girlGreenTab@2x.jpg);
+  }
+
+  .order-section {
+    background-image: url(../img/background/orderTab@2x.png);
+    background-size: 323px 484px;
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1280px) {
+  .order-section-container::before {
+    background-image: url(../img/girlGreenMin@2x.jpg);
+  }
+
+  .order-section {
+    background-image: url(../img/background/orderMin@2x.png);
+    background-size: 289px 484px;
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1440px) {
+  .order-section-container::before {
+    background-image: url(../img/girlGreen@2x.jpg);
+  }
+
+  .order-section {
+    background-image: url(../img/background/order@2x.png);
+    background-size: 325px 484px;
+  }
+}
