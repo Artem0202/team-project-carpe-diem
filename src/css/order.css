@@ -125,8 +125,6 @@
 }
 
 .order-form-button-svg {
-  width: 26px;
-  height: 10px;
   fill: #ecd979;
 }
 
@@ -140,6 +138,9 @@
     padding-right: 32px;
     padding-top: 876px;
     padding-bottom: 179px;
+  }
+
+  .order-section {
     background-image: url(../img/background/orderTab.png);
     background-repeat: no-repeat;
     background-position: bottom 100px left;
@@ -203,6 +204,9 @@
     padding-right: 100px;
     padding-top: 926px;
     padding-bottom: 150px;
+  }
+
+  .order-section {
     background-image: url(../img/background/orderMin.png);
     background-position: bottom 150px left;
   }
@@ -245,7 +249,7 @@
     max-width: 1440px;
   }
 
-  .order-section-container {
+  .order-section {
     padding-bottom: 150px;
     background-image: url(../img/background/order.png);
     background-position: bottom 150px left;
@@ -283,7 +287,7 @@
     background-image: url(../img/girlGreenTab@2x.jpg);
   }
 
-  .order-section-container {
+  .order-section {
     background-image: url(../img/background/orderTab@2x.png);
     background-size: 323px 484px;
   }
@@ -294,7 +298,7 @@
     background-image: url(../img/girlGreenMin@2x.jpg);
   }
 
-  .order-section-container {
+  .order-section {
     background-image: url(../img/background/orderMin@2x.png);
     background-size: 289px 484px;
   }
@@ -305,7 +309,7 @@
     background-image: url(../img/girlGreen@2x.jpg);
   }
 
-  .order-section-container {
+  .order-section {
     background-image: url(../img/background/order@2x.png);
     background-size: 325px 484px;
   }
