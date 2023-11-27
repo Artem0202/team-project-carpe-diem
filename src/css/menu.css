@@ -1,0 +1,125 @@
+/* ========== MOBILE MENU STYLES ========== */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999999;
+  overflow: auto;
+  background-color: rgba(46, 47, 66, 0.4);
+  transform: translateX(100%);
+}
+.mobile-menu .container {
+  position: absolute;
+  width: 274px;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  background-color: #ecd979;
+  background-image: url(../img/background/menuMob.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 274px;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 250ms linear;
+  padding-top: 20px;
+}
+.is-open {
+  transform: translateX(0%);
+}
+.mobile-menu-contacts {
+  display: flex;
+  width: 158px;
+  height: 38px;
+  justify-content: start;
+  align-items: center;
+}
+.mobile-menu-phone {
+  display: flex;
+  padding: 12px 20px;
+  color: #1c2225;
+  font-size: 12px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  border-radius: 15px;
+  border: 1px solid rgba(28, 34, 37, 0.1);
+}
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  line-height: 0;
+}
+.close-btn-icon {
+  width: 36px;
+  height: 36px;
+  stroke: #1c2225;
+}
+.mobile-menu-nav-wrapper {
+  display: flex;
+  height: 60%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.mobile-menu-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+}
+.mobile-menu-nav-link {
+  color: #1c2225;
+  font-size: 14px;
+  line-height: 1.29;
+  text-transform: uppercase;
+}
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .mobile-menu {
+    background-image: url(../img/background/menuMob@2x.png);
+    background-size: 274px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu .container {
+    width: 380px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-image: url(../img/background/menuTab.png);
+  }
+  .mobile-menu-contacts {
+    width: 193px;
+    height: 48px;
+  }
+  .mobile-menu-phone {
+    padding: 14px 28px;
+    font-size: 14px;
+    line-height: 1.42;
+  }
+  .close-btn-icon {
+    width: 44px;
+    height: 44px;
+  }
+  .mobile-menu-nav-wrapper {
+    height: 50%;
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  .mobile-menu {
+    background-image: url(../img/background/menuTab@2x.png);
+    background-size: 380px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+/* ========== /MOBILE MENU STYLES ========== */
