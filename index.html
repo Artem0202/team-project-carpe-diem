@@ -47,16 +47,35 @@
         unique history and symbolism, which gives it a special meaning.
       </p>
     </div>
-    <img
-      class="about-image"
-      src="/team-project-carpe-diem/assets/aboutMin-8c4b0de9.jpg"
-      srcset="/team-project-carpe-diem/assets/aboutMob-fe57ff96.jpg 335w, /team-project-carpe-diem/assets/aboutMob@2x-18af857d.jpg 670w, /team-project-carpe-diem/assets/aboutTab-5b59735a.jpg 704w, /team-project-carpe-diem/assets/aboutTab@2x-b24b75f6.jpg 1408w, /team-project-carpe-diem/assets/aboutMin-8c4b0de9.jpg 594w, /team-project-carpe-diem/assets/aboutMin@2x-7c8e28fe.jpg 1188w, /team-project-carpe-diem/assets/about-35ac70fc.jpg 709w, /team-project-carpe-diem/assets/about@2x-708d15c2.jpg 1418w"
-      sizes="(min-width: 1440px) 709px, 
-      (min-width: 1280px) 594px,
-       (min-width: 768px) 704px,
-        (max-width: 767px) 335px"
-      alt="ornament"
-    />
+
+    <picture>
+      <source
+        media="(min-width:1440px)"
+        srcset="/team-project-carpe-diem/assets/about-35ac70fc.jpg 1x, /team-project-carpe-diem/assets/about@2x-708d15c2.jpg 2x"
+        type="image/jpg"
+      />
+      <source
+        media="(min-width:1280px)"
+        srcset="/team-project-carpe-diem/assets/aboutMin-8c4b0de9.jpg 1x, /team-project-carpe-diem/assets/aboutMin@2x-7c8e28fe.jpg 2x"
+        type="image/jpg"
+      />
+      <source
+        media="(min-width:768px)"
+        srcset="/team-project-carpe-diem/assets/aboutTab-5b59735a.jpg 1x, /team-project-carpe-diem/assets/aboutTab@2x-b24b75f6.jpg 2x"
+        type="image/jpg"
+      />
+      <source
+        media="(max-width:767px)"
+        srcset="/team-project-carpe-diem/assets/aboutMob-fe57ff96.jpg 1x, /team-project-carpe-diem/assets/aboutMob@2x-18af857d.jpg 2x"
+        type="image/jpg"
+      />
+      <img
+        class="about-image"
+        src="/team-project-carpe-diem/assets/aboutMin-8c4b0de9.jpg"
+        alt="ornament"
+        loading="lazy"
+      />
+    </picture>
   </div>
 </section>
 
