@@ -1,18 +1,20 @@
 /* ===================COLLECTION MOBILE STYLES================== */
 .our-collection .container {
-  padding: 18px 20px 80px 20px;
+  padding: 0 20px;
 }
 
 .our-collection {
   background-image: url(../img/background/collectMob.png);
   background-repeat: no-repeat;
   background-position: 0 10%;
+  padding-top: 18px;
+  padding-bottom: 80px;
 }
 
 .collection-title {
   display: flex;
   justify-content: center;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   font-size: 32px;
   font-weight: 500;
   line-height: 1.37;
@@ -63,13 +65,15 @@
 
 @media screen and (min-width: 768px) {
   .our-collection .container {
-    padding: 50px 32px 100px 32px;
+    padding: 0 32px;
     max-width: 768px;
   }
 
   .our-collection {
     background-image: url(../img/background/collectTab.png);
     background-position: 0 14%;
+    padding-top: 50px;
+    padding-bottom: 100px;
   }
 
   .collection-list {
@@ -111,7 +115,7 @@
 /* ===================COLLECTION DESKTOP STYLES================== */
 @media screen and (min-width: 1280px) {
   .our-collection .container {
-    padding: 70px 100px 150px 100px;
+    padding: 0 100px;
     max-width: 1280px;
   }
 
@@ -123,6 +127,8 @@
   .our-collection {
     background-image: url(../img/background/collect.png);
     background-position: 0 22%;
+    padding-top: 70px;
+    padding-bottom: 150px;
   }
 
   .collection-list-item {
