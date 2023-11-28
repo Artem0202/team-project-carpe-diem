@@ -44,18 +44,25 @@
       </form>
     </div>
     <div class="order-container-image">
-      <img
+      <picture class="order-img">
+        <source
+          media="(min-width:1280px)"
+          srcset="./img/order.jpg 1x, /img/order@2x.jpg 2x"
+          type="image/jpg"
+        />
+        <source
+          media="(min-width:768px)"
+          srcset="./img/orderTab.jpg 1x, /img/orderTab@2x.jpg 2x"
+          type="image/jpg"
+        />
+        <img
         src="./img/orderTab.jpg"
         srcset="./img/orderTab.jpg 1x, ./img/orderTab@2x.jpg 2x"
         alt="ukrainian-vyshyvanka"
         class="order-img"
+        loading="lazy"
       />
-      <img
-        src="./img/order.jpg"
-        srcset="./img/order.jpg 1x, ./img/order@2x.jpg 2x"
-        alt="ukrainian-vyshyvanka"
-        class="order-img-desktop"
-      />
+      </picture>
     </div>
   </div>
 </section>
