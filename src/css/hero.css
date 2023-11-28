@@ -6,11 +6,12 @@
 .hero-small-image {
   display: none;
 }
-
-.hero-container {
-  display: flex;
+.hero {
   padding-top: 60px;
   padding-bottom: 40px;
+}
+.hero-container {
+  display: flex;
 }
 
 .hero-main {
@@ -23,7 +24,6 @@
 }
 .hero-image {
   border-radius: 4px;
-  margin-right: 40px;
 }
 
 .main-title {
@@ -78,11 +78,9 @@
 
 /*==========HERO TABLET STYLES=======*/
 @media screen and (min-width: 768px) {
-  .hero .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
+  .hero {
     padding-top: 80px;
+    padding-bottom: 50px;
   }
 
   .hero-container {
@@ -90,7 +88,7 @@
   }
 
   .hero-main {
-    padding-top: 26px;    
+    margin-top: 26px;
   }
 
   .order-button {
@@ -101,9 +99,9 @@
 
   .main-title {
     max-width: 549px;
-    margin-right: 40px;
     font-size: 54px;
     line-height: 1.19;
+    margin-bottom: 40px;
   }
 
   .ukraine {
@@ -161,22 +159,14 @@
 /*==========HERO 1280 STYLES=======*/
 
 @media screen and (min-width: 1280px) {
-  .hero .container {
-    max-width: 1280px;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-  .hero-container {
+  .hero {
     padding-top: 100px;
-    margin-bottom: 75px;
-  }
-  .title {
-    padding-right: 15px;
+    padding-bottom: 75px;
   }
   .hero-main {
     flex-direction: row;
     padding-top: 0;
+    margin-top: 0;
   }
 
   .pictures-hero {
@@ -184,7 +174,8 @@
   }
 
   .title {
-    padding-top: 94px;
+    margin-top: 94px;
+    margin-left: 40px;
   }
 
   .main-title {
@@ -202,13 +193,8 @@
 
 /*==========HERO 1440 STYLES=======*/
 @media screen and (min-width: 1440px) {
-  .hero .container {
-    max-width: 1440px;
-  }
-
   .title {
-    padding-top: 66px;
-    padding-right: 0;
+    margin-top: 66px;
   }
 
   .main-title {
@@ -217,14 +203,13 @@
     font-size: 64px;
     line-height: 1.16;
   }
-
   .ukraine {
     font-size: 64px;
     line-height: 1.16;
   }
 
   .pictures-hero {
-    padding-top: 66px;
+    margin-top: 66px;
   }
 }
 
