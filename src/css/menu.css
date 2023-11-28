@@ -9,7 +9,6 @@
   z-index: 999999999;
   overflow: auto;
   background-color: rgba(46, 47, 66, 0.4);
-  transition: transform 250ms linear;
   /* transform: translateX(100%); */
 }
 .mobile-menu .container {
@@ -17,14 +16,14 @@
   width: 274px;
   height: 100%;
   top: 50%;
-  left: 50%;
+  right: 0;
   background-color: #ecd979;
   background-image: url(../img/background/menuMob.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  width: 274px;
-  transform: translate(-50%, -50%) scale(1);
 
+  transform: translate(0, -50%) scale(1);
+  transition: transform 250ms linear;
   padding-top: 20px;
 }
 .is-open {
