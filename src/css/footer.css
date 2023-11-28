@@ -52,6 +52,10 @@
   color: #ecd979;
 }
 
+.footer-nav-link:focus {
+  color: #ecd979;
+}
+
 .company-slogan {
   font-size: 44px;
   font-style: normal;
