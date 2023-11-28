@@ -15,6 +15,7 @@
     background-image: url(../img/background/aboutMob@2x.png);
   }
 }
+
 .title-about {
   color: var(--white, #fcf9f9);
   font-family: 'Manrope';
