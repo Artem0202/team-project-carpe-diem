@@ -46,11 +46,6 @@
 
 /*=======Styles for tab=========*/
 @media screen and (min-width: 768px) {
-  .section-about .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-
   .section-about {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -87,10 +82,8 @@
 /*=======Styles for desktop Min=========*/
 @media screen and (min-width: 1280px) {
   .section-about .container {
-    max-width: 1280px;
     display: flex;
     gap: 50px;
-    padding: 0 100px;
   }
   .section-about {
     padding-top: 75px;
@@ -121,9 +114,6 @@
 
 /*=======Styles for desktop Max=========*/
 @media screen and (min-width: 1440px) {
-  .section-about .container {
-    max-width: 1440px;
-  }
   .section-about {
     background-image: url(../img/background/about.png);
     background-position: right bottom;
