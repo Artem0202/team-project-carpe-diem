@@ -70,9 +70,6 @@
 
 /* ========== TABLET STYLES ========== */
 @media screen and (min-width: 768px) {
-  .flex-top {
-    max-width: 768px;
-  }
   .mobile-btn-icon {
     width: 44px;
     height: 30px;
@@ -82,9 +79,6 @@
 
 /* ========== DESKTOP 1280 STYLES ========== */
 @media screen and (min-width: 1280px) {
-  .flex-top {
-    max-width: 1280px;
-  }
   .nav-menu {
     display: flex;
     flex-direction: row;
@@ -128,9 +122,8 @@
 
 /* ========== DESKTOP 1440 STYLES ========== */
 @media screen and (min-width: 1440px) {
-  .flex-top {
-    max-width: 1440px;
-    margin-top: 18px;
+  .page-header {
+    padding-top: 18px;
   }
 }
 /* ========== /DESKTOP 1440 STYLES ========== */
