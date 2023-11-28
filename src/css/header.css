@@ -1,6 +1,8 @@
 /* ========== HEADER STYLES ========== */
+.page-header {
+  padding-top: 20px;
+}
 .flex-top {
-  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
