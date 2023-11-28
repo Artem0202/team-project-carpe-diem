@@ -6,13 +6,16 @@
   background-image: url(../img/background/aboutMob.png);
   background-position: right bottom;
   background-repeat: no-repeat;
-  background-size: bottom 50px;
+  background-size: 250px 408px;
 }
-@media screen and (min-resolution: 192dpi) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+  screen and (min-resolution: 192dpi) and (min-width: 320px),
+  screen and (min-resolution: 2dppx) and (min-width: 320px) {
   .section-about {
     background-image: url(../img/background/aboutMob@2x.png);
   }
 }
+
 .title-about {
   color: var(--white, #fcf9f9);
   font-family: 'Manrope';
@@ -22,7 +25,7 @@
   line-height: 1.37;
   letter-spacing: -0.03em;
   text-align: left;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .text-about {
@@ -33,21 +36,16 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.04em;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   max-width: 335px;
 }
 .about-image {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 /*=======Styles for mobile=========*/
 
 /*=======Styles for tab=========*/
 @media screen and (min-width: 768px) {
-  .section-about .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-
   .section-about {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -56,7 +54,9 @@
     background-repeat: no-repeat;
     background-size: 357px 484px;
   }
-  @media screen and (min-resolution: 192dpi) {
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+    screen and (min-resolution: 192dpi) and (min-width: 320px),
+    screen and (min-resolution: 2dppx) and (min-width: 320px) {
     .section-about {
       background-image: url(../img/background/aboutTab@2x.png);
     }
@@ -66,7 +66,7 @@
     font-size: 44px;
     line-height: 1.45;
     letter-spacing: -0.03em;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
 
   .text-about {
@@ -74,7 +74,7 @@
     max-width: 704px;
   }
   .about-image {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 }
 /*=======Styles for tab=========*/
@@ -82,10 +82,8 @@
 /*=======Styles for desktop Min=========*/
 @media screen and (min-width: 1280px) {
   .section-about .container {
-    max-width: 1280px;
     display: flex;
     gap: 50px;
-    padding: 0 100px;
   }
   .section-about {
     padding-top: 75px;
@@ -95,7 +93,9 @@
     background-repeat: no-repeat;
     background-size: 385px 484px;
   }
-  @media screen and (min-resolution: 192dpi) {
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+    screen and (min-resolution: 192dpi) and (min-width: 320px),
+    screen and (min-resolution: 2dppx) and (min-width: 320px) {
     .section-about {
       background-image: url(../img/background/aboutMin@2x.png);
     }
@@ -104,23 +104,25 @@
     max-width: 436px;
   }
   .title-about {
-    padding-top: 46px;
+    margin-top: 46px;
+  }
+  .about-image {
+    margin-top: 0;
   }
 }
 /*=======Styles for desktop Min=========*/
 
 /*=======Styles for desktop Max=========*/
 @media screen and (min-width: 1440px) {
-  .section-about .container {
-    max-width: 1440px;
-  }
   .section-about {
     background-image: url(../img/background/about.png);
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 545px 484px;
   }
-  @media screen and (min-resolution: 192dpi) {
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+    screen and (min-resolution: 192dpi) and (min-width: 320px),
+    screen and (min-resolution: 2dppx) and (min-width: 320px) {
     .section-about {
       background-image: url(../img/background/about@2x.png);
     }
@@ -129,7 +131,7 @@
     max-width: 481px;
   }
   .title-about {
-    padding-top: 78px;
+    margin-top: 78px;
   }
 }
 /*=======Styles for desktop Max=========*/
