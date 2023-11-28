@@ -1,7 +1,6 @@
 .order-section-container {
   padding-top: 710px;
   padding-bottom: 40px;
-  margin: 0 auto;
   position: relative;
 }
 
@@ -176,8 +175,6 @@
     display: flex;
     flex-direction: row-reverse;
     gap: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
     padding-top: 926px;
     padding-bottom: 75px;
   }
