@@ -1,21 +1,29 @@
 <section class="hero">
   <div class="container hero-container">
     <div class="hero-main">
-      <img
-        class="hero-image"
-        srcset="
-          ./img/heroGirMob.jpg    335w,
-          ./img/heroGirMob@2x.jpg 670w,
-          ./img/heroGirTab.jpg    413w,
-          ./img/heroGirTab@2x.jpg 826w,
-          ./img/heroGirDes.jpg    392w,
-          ./img/heroGirDes@2x.jpg 784w
-        "
-        sizes="(min-width: 1280px) 392px, (min-width: 768px) 413px, (max-width: 767px) 335px"
-        src="./img/heroGirDes.jpg"
-        alt="Vyshuvanka Main"
-        width="392"
-      />
+      <picture>
+        <source
+          media="(min-width:1280px)"
+          srcset="../img/heroGirDes.jpg 1x, ../img/heroGirDes@2x.jpg 2x"
+          type="image/jpg"
+        />
+        <source
+          media="(min-width:768px)"
+          srcset="../img/heroGirTab.jpg 1x, ../img/heroGirTab@2x.jpg 2x"
+          type="image/jpg"
+        />
+        <source
+          media="(max-width:767px)"
+          srcset="../img/heroGirMob.jpg 1x, ../img/heroGirMob@2x.jpg 2x"
+          type="image/jpg"
+        />
+        <img
+          class="hero-image"
+          src="./img/heroGirMob"
+          alt="Hero Girl"
+          loading="lazy"
+        />
+      </picture>
 
       <div class="title">
         <h1 class="main-title">
@@ -34,7 +42,7 @@
     </div>
 
     <div class="pictures-hero">
-      <div slass="star">
+      <div class="star">
         <ul class="star-list">
           <li class="star-item">
             <svg class="star-icon" width="52" height="51">
