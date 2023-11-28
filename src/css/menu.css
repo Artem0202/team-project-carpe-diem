@@ -1,5 +1,6 @@
 /* ========== MOBILE MENU STYLES ========== */
 .mobile-menu {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -8,7 +9,7 @@
   z-index: 999999999;
   overflow: auto;
   background-color: rgba(46, 47, 66, 0.4);
-  transform: translateX(100%);
+  /* transform: translateX(100%); */
 }
 .mobile-menu .container {
   position: absolute;
