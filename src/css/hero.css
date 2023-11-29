@@ -61,7 +61,7 @@
   margin-right: auto;
   margin-bottom: 40px;
   background-color: transparent;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms ease-in-out;
   max-width: 168px;
 }
 
@@ -131,7 +131,7 @@
 
   .star-icon {
     fill: var(--yellow, #ecd979);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms ease-in-out;
   }
 
   .star-icon:hover,

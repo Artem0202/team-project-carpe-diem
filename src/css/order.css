@@ -42,6 +42,7 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   margin-bottom: 20px;
   color: rgba(252, 249, 249, 0.5);
+  transition: border 250ms ease-in-out;
 }
 
 .order-input:hover,
@@ -80,6 +81,7 @@
   margin-bottom: 40px;
   resize: none;
   color: rgba(252, 249, 249, 0.5);
+  transition: border 250ms ease-in-out;
 }
 
 .order-textarea::placeholder {
@@ -111,6 +113,7 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   margin: 0 auto;
+  transition: border 250ms ease-in-out;
 }
 
 .order-form-button:hover,

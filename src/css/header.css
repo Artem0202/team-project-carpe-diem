@@ -34,6 +34,7 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background: rgba(252, 249, 249, 0.1);
+  transition: border 250ms ease-in-out;
 }
 .social-link:hover,
 .social-link:focus {
@@ -89,6 +90,7 @@
     font-size: 14px;
     line-height: 1.28;
     text-transform: uppercase;
+    transition: border 250ms ease-in-out;
   }
   .nav-link:hover,
   .nav-link:focus {
@@ -109,6 +111,7 @@
     text-transform: uppercase;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
+    transition: border 250ms ease-in-out;
   }
   .phone:hover,
   .phone:focus {
