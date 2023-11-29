@@ -81,14 +81,14 @@
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
-  .mobile-menu {
+  .mobile-menu .container {
     background-image: url(../img/background/menuMob@2x.png);
     background-size: 274px;
   }
 }
 @media screen and (min-width: 768px) {
   .mobile-menu .container {
-    width: 380px;
+    max-width: 380px;
     padding-left: 32px;
     padding-right: 32px;
     background-image: url(../img/background/menuTab.png);
@@ -113,7 +113,7 @@
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-  .mobile-menu {
+  .mobile-menu .container {
     background-image: url(../img/background/menuTab@2x.png);
     background-size: 380px;
   }
